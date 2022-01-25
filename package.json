@@ -1,0 +1,18 @@
+{
+  "name": "yaBase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KozaCarry <30726826+KozaCarry@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "go": "ts-node-dev ./src/server/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.2",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
+}

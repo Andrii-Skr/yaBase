@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2020"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUncheckedIndexedAccess": false, // TODO: enable it
+    "importHelpers": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    // "exactOptionalPropertyTypes": true,
+    "jsx": "react",
+    "noEmit": true,
+    "declaration": false
+  },
+  "include": [
+    "*.ts"
+, "src/server/server.ts"  ]
+}
